@@ -1,0 +1,14 @@
+{
+  "name": "natorus",
+  "version": "1.0.0",
+  "description": "LAnding page for natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dawid Cieślak",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
