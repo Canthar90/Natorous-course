@@ -4,11 +4,14 @@
   "description": "LAnding page for natours",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Dawid Cieślak",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^8.0.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
   }
 }
